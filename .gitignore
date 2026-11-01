@@ -62,3 +62,9 @@ requirements_full_environment.txt
 
 # Internal research planning
 CSCI_ACTION_PLAN.md
+
+# External dataset links and trained checkpoints
+/data/raw
+/data/processed
+/results/checkpoints/
+/results/**/best_model.pt
