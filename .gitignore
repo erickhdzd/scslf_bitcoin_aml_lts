@@ -68,3 +68,10 @@ CSCI_ACTION_PLAN.md
 /data/processed
 /results/checkpoints/
 /results/**/best_model.pt
+
+
+# Dataset externo: no publicar archivos originales ni procesados.
+/data/raw/**
+!/data/raw/.gitkeep
+/data/processed/**
+!/data/processed/.gitkeep
