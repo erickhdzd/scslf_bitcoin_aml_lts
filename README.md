@@ -44,7 +44,7 @@ The reference environment uses Python 3.14 and the pinned packages in `requireme
 Create an isolated environment:
 
 ```bash
-python3.14 -m venv .venv
+python3.15 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
