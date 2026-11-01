@@ -1,0 +1,20 @@
+DELIVERY PACKAGE CHECK
+============================================
+
+SOURCE_DATE_EPOCH     : 0
+Build timestamp UTC   : 1970-01-01T00:00:00+00:00
+Source files          : 52
+Expected ZIP members  : 53
+Verified file hashes  : 52
+Duplicate ZIP members : 0
+Unsafe path violations: 0
+Verification errors   : 0
+Archive size (bytes)  : 1279283
+Archive SHA-256       : 90f0eb2055cde4a3e14712ae4652cf2c8c4ffcd4f88c1e89e5bbdf1a089692f2
+
+STATUS: PASS
+
+The delivery ZIP is complete and readable.
+All ZIP member names passed the duplicate-name, root-directory, and path-safety checks.
+All packaged files match their recorded SHA-256 hashes.
+The archive contains no unexpected members.

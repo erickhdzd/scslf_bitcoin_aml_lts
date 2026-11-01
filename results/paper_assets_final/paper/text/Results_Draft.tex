@@ -1,0 +1,15 @@
+\section{Results}
+
+Six anti-money-laundering models were evaluated using 5 main performance measures. The comparison included standalone neural and graph-based models, the Hybrid Transformer baseline, a Transformer + GraphSAGE fusion model, and the proposed late-fusion strategy. All reported aggregate results were computed across five experimental runs.
+
+Late Fusion achieved 0.5686 ± 0.0081 F1, 0.5880 ± 0.0124 MCC, 0.8509 ± 0.0099 ROC-AUC, 0.5376 ± 0.0069 PR-AUC, and 0.7134 ± 0.0053 balanced accuracy.
+
+Relative to the Hybrid Transformer, the proposed method changed F1 by -0.0037 (-0.64\%), MCC by +0.0005 (+0.09\%), ROC-AUC by +0.0135 (+1.61\%), PR-AUC by +0.0101 (+1.91\%), and balanced accuracy by -0.0041 (-0.57\%).
+
+Late Fusion obtained the highest mean result for MCC, ROC-AUC, PR-AUC among the evaluated configurations. These results indicate that the late-fusion mechanism is particularly beneficial for the metrics in which the proposed model leads the comparison.
+
+The simultaneous improvement in MCC, ROC-AUC, and PR-AUC suggests that the proposed fusion strategy improves both the global discrimination of transactions and the quality of predictions for the minority illicit class. This is especially relevant because accuracy alone can be misleading in highly imbalanced anti-money-laundering data.
+
+The paired statistical analysis produced the following metric-level results: F1, mean difference -0.0037, Wilcoxon p=0.4375, permutation p=0.4375, rank-biserial correlation -0.4667; MCC, mean difference +0.0005, Wilcoxon p=0.8125, permutation p=0.9375, rank-biserial correlation +0.2000; ROC-AUC, mean difference +0.0135, Wilcoxon p=0.125, permutation p=0.125, rank-biserial correlation +0.8667; PR-AUC, mean difference +0.0101, Wilcoxon p=0.0625, permutation p=0.0625, rank-biserial correlation +1.0000; Bal. Acc., mean difference -0.0041, Wilcoxon p=0.1875, permutation p=0.1875, rank-biserial correlation -0.7333. Because only five paired experimental runs were available, the statistical evidence should be interpreted together with the effect sizes and the direction of the seed-level differences, rather than from p-values alone.
+
+Overall, the results support Late Fusion as a competitive fusion strategy for Bitcoin transaction classification. The model combines the complementary information captured by the Hybrid Transformer and GraphSAGE components while preserving reproducible evaluation across the same experimental seeds. The generated text should nevertheless be reviewed and adapted to the final narrative and terminology of the manuscript before submission.

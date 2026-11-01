@@ -1,0 +1,220 @@
+{
+  "generated_at_utc": "1970-01-01T00:00:00+00:00",
+  "source_date_epoch": 0,
+  "project_root": ".",
+  "output_root": "results/paper_assets_final",
+  "script": "src/generate_paper_assets.py",
+  "environment": {
+    "python_version": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "python_implementation": "CPython",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "system": "Linux",
+    "release": "6.18.35",
+    "machine": "x86_64",
+    "processor": "",
+    "numpy_version": "2.3.5",
+    "matplotlib_version": "3.10.8"
+  },
+  "configuration": {
+    "reproducible_build": true,
+    "decimals": 4,
+    "model_count": 6,
+    "metrics": [
+      "balanced_accuracy",
+      "precision",
+      "recall",
+      "f1",
+      "macro_f1",
+      "mcc",
+      "roc_auc",
+      "pr_auc"
+    ],
+    "paper_metrics": [
+      "f1",
+      "mcc",
+      "roc_auc",
+      "pr_auc",
+      "balanced_accuracy"
+    ],
+    "supplementary_metrics": [
+      "f1",
+      "mcc",
+      "roc_auc",
+      "pr_auc",
+      "balanced_accuracy",
+      "precision",
+      "recall",
+      "macro_f1"
+    ],
+    "paper_model_order": [
+      "MLP",
+      "Transformer",
+      "GraphSAGE",
+      "Hybrid Transformer",
+      "Transformer + GraphSAGE",
+      "Late Fusion (ours)"
+    ],
+    "fusion_models": [
+      "Late Fusion (ours)",
+      "Transformer + GraphSAGE"
+    ]
+  },
+  "consolidated_results": {
+    "path": "results/paper_assets_final/json/consolidated_results.json",
+    "exists": true,
+    "size_bytes": 16948,
+    "sha256": "0e4da912bdd61ce6d7c690d5fffacb4d65c407304b34b55ae3ccaa94a7da261b"
+  },
+  "models": [
+    {
+      "name": "MLP",
+      "directory": "results/mlp_target",
+      "source_file": "results/mlp_target/aggregate_summary.json",
+      "source_exists": true,
+      "source_size_bytes": 2852,
+      "source_sha256": "d5516b47949341d03384a2d847ddb995e65e6e9c1bee9fb9267b401fb99416a9",
+      "n_seeds": 5,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "available_metrics": [
+        "balanced_accuracy",
+        "f1",
+        "macro_f1",
+        "mcc",
+        "pr_auc",
+        "precision",
+        "recall",
+        "roc_auc"
+      ]
+    },
+    {
+      "name": "Transformer",
+      "directory": "results/transformer",
+      "source_file": "results/transformer/aggregate_summary.json",
+      "source_exists": true,
+      "source_size_bytes": 2915,
+      "source_sha256": "2a3e9660a716b6b3096ae2f1df5f1a08ece49721b58fb750605a4cbebe620ecd",
+      "n_seeds": 5,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "available_metrics": [
+        "balanced_accuracy",
+        "f1",
+        "macro_f1",
+        "mcc",
+        "pr_auc",
+        "precision",
+        "recall",
+        "roc_auc"
+      ]
+    },
+    {
+      "name": "Hybrid Transformer",
+      "directory": "results/hybrid_transformer",
+      "source_file": "results/hybrid_transformer/aggregate_summary.json",
+      "source_exists": true,
+      "source_size_bytes": 2957,
+      "source_sha256": "a19215c78e7f1d53e4ea62ea9cd640dec4c8fe8b44f0fb8752de4272ea5d7a5d",
+      "n_seeds": 5,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "available_metrics": [
+        "balanced_accuracy",
+        "f1",
+        "macro_f1",
+        "mcc",
+        "pr_auc",
+        "precision",
+        "recall",
+        "roc_auc"
+      ]
+    },
+    {
+      "name": "GraphSAGE",
+      "directory": "results/graphsage",
+      "source_file": "results/graphsage/aggregate_summary.json",
+      "source_exists": true,
+      "source_size_bytes": 2735,
+      "source_sha256": "02cd750ad25c1f7762f854e60e91b0ce81afd53dcd4022e6a4aaceb0f6a0b49f",
+      "n_seeds": 5,
+      "seeds": [],
+      "available_metrics": [
+        "balanced_accuracy",
+        "f1",
+        "macro_f1",
+        "mcc",
+        "pr_auc",
+        "precision",
+        "recall",
+        "roc_auc"
+      ]
+    },
+    {
+      "name": "Transformer + GraphSAGE",
+      "directory": "results/transformer_graphsage",
+      "source_file": "results/transformer_graphsage/aggregate_summary.json",
+      "source_exists": true,
+      "source_size_bytes": 3067,
+      "source_sha256": "267d889c3f13bb708e928ad3ac2b7daf6bf47c7db8e0364bafbc5db163377024",
+      "n_seeds": 5,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "available_metrics": [
+        "balanced_accuracy",
+        "f1",
+        "macro_f1",
+        "mcc",
+        "pr_auc",
+        "precision",
+        "recall",
+        "roc_auc"
+      ]
+    },
+    {
+      "name": "Late Fusion (ours)",
+      "directory": "results/late_fusion",
+      "source_file": "results/late_fusion/aggregate_summary.json",
+      "source_exists": true,
+      "source_size_bytes": 7967,
+      "source_sha256": "9c4495807bc0de0c57094d0c58db2cf917cdf2acf334afbc3955dcb38bb8bbab",
+      "n_seeds": 5,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "available_metrics": [
+        "balanced_accuracy",
+        "f1",
+        "macro_f1",
+        "mcc",
+        "pr_auc",
+        "precision",
+        "recall",
+        "roc_auc"
+      ]
+    }
+  ]
+}

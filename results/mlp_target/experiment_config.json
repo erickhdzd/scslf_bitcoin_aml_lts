@@ -1,0 +1,25 @@
+{
+  "sequence_dir": "data/processed/sequences",
+  "output_dir": "results/mlp_target",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "num_epochs": 80,
+  "batch_size": 256,
+  "learning_rate": 0.0003,
+  "min_learning_rate": 1e-06,
+  "weight_decay": 0.01,
+  "patience": 10,
+  "min_delta": 0.0001,
+  "gradient_clip_norm": 1.0,
+  "hidden_dim": 192,
+  "classifier_hidden_dim": 96,
+  "dropout": 0.1,
+  "num_workers": 4,
+  "amp": true,
+  "device": "cuda:0"
+}

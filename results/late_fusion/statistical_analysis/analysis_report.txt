@@ -1,0 +1,17 @@
+========================================================================================
+LATE FUSION: PAIRED STATISTICAL ANALYSIS
+========================================================================================
+
+Paired seeds: 5
+Bootstrap: 100,000 resamples, 95.0% CI
+
+IMPORTANT: n=5 has low inferential power; exact two-sided tests cannot achieve p<0.05 even when all five paired differences have the same sign.
+
+balanced_accuracy: fusion 0.7134 ± 0.0053; hybrid 0.7175 ± 0.0042; Δ -0.004115 [-0.008286, -0.000012]; Wilcoxon p=0.187500; sign-flip p=0.187500; dz=-0.7779; wins/ties/losses=1/0/4
+precision: fusion 0.8378 ± 0.0419; hybrid 0.8204 ± 0.0318; Δ +0.017451 [-0.011776, +0.045622]; Wilcoxon p=0.437500; sign-flip p=0.375000; dz=+0.4830; wins/ties/losses=3/0/2
+recall: fusion 0.4309 ± 0.0114; hybrid 0.4397 ± 0.0089; Δ -0.008824 [-0.018137, -0.000490]; Wilcoxon p=0.187500; sign-flip p=0.187500; dz=-0.7800; wins/ties/losses=1/0/4
+f1: fusion 0.5686 ± 0.0081; hybrid 0.5723 ± 0.0084; Δ -0.003690 [-0.009920, +0.003263]; Wilcoxon p=0.437500; sign-flip p=0.437500; dz=-0.4444; wins/ties/losses=1/0/4
+macro_f1: fusion 0.7765 ± 0.0042; hybrid 0.7783 ± 0.0044; Δ -0.001800 [-0.005142, +0.001794]; Wilcoxon p=0.437500; sign-flip p=0.437500; dz=-0.4175; wins/ties/losses=1/0/4
+roc_auc: fusion 0.8509 ± 0.0099; hybrid 0.8374 ± 0.0108; Δ +0.013506 [+0.006442, +0.018157]; Wilcoxon p=0.125000; sign-flip p=0.125000; dz=+1.7345; wins/ties/losses=4/0/1
+pr_auc: fusion 0.5376 ± 0.0069; hybrid 0.5276 ± 0.0082; Δ +0.010064 [+0.004750, +0.016898]; Wilcoxon p=0.062500; sign-flip p=0.062500; dz=+1.3115; wins/ties/losses=5/0/0
+mcc: fusion 0.5880 ± 0.0124; hybrid 0.5875 ± 0.0114; Δ +0.000503 [-0.009186, +0.008198]; Wilcoxon p=0.812500; sign-flip p=0.937500; dz=+0.0451; wins/ties/losses=3/0/2

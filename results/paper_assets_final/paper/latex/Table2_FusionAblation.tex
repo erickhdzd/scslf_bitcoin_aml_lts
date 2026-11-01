@@ -1,0 +1,15 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Ablation study comparing early- and late-fusion strategies. The final column reports the absolute MCC difference relative to the Hybrid Transformer.}
+\label{tab:fusion-ablation}
+\begin{tabular}{lrrrrrr}
+\toprule
+Model & F1 & MCC & ROC-AUC & PR-AUC & Bal.\ Acc. & $\Delta$ MCC \\
+\midrule
+Hybrid Transformer & \textbf{0.5723 $\pm$ 0.0084} & 0.5875 $\pm$ 0.0114 & 0.8374 $\pm$ 0.0108 & 0.5276 $\pm$ 0.0082 & \textbf{0.7175 $\pm$ 0.0042} & +0.0000 \\
+Transformer + GraphSAGE & 0.4808 $\pm$ 0.0184 & 0.4769 $\pm$ 0.0258 & 0.8386 $\pm$ 0.0213 & 0.4483 $\pm$ 0.0271 & 0.6907 $\pm$ 0.0118 & -0.1106 \\
+Late Fusion (ours) & 0.5686 $\pm$ 0.0081 & \textbf{0.5880 $\pm$ 0.0124} & \textbf{0.8509 $\pm$ 0.0099} & \textbf{0.5376 $\pm$ 0.0069} & 0.7134 $\pm$ 0.0053 & +0.0005 \\
+\bottomrule
+\end{tabular}
+\end{table*}

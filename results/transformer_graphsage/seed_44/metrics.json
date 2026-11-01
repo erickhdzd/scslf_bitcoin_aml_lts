@@ -1,0 +1,43 @@
+{
+  "seed": 44,
+  "best_epoch": 18,
+  "threshold": 0.8357518315315247,
+  "parameter_count": 1583563,
+  "pos_weight": 7.634893125361063,
+  "graph_embedding_dim": 192,
+  "graphsage_embedding_file": "data/processed/graphsage_embeddings/graphsage_embeddings_seed44.pt",
+  "epochs_completed": 28,
+  "training_seconds": 31.00080854999942,
+  "validation_loss": 0.8024534937643825,
+  "test_loss": 1.1450827724320656,
+  "validation": {
+    "threshold": 0.8357518315315247,
+    "balanced_accuracy": 0.8239817144513817,
+    "precision": 0.7446457990115322,
+    "recall": 0.6696296296296296,
+    "f1": 0.7051482059282371,
+    "macro_f1": 0.8394271914449198,
+    "roc_auc": 0.9382188674556582,
+    "pr_auc": 0.727041861025254,
+    "mcc": 0.680070226279698,
+    "tn": 6999,
+    "fp": 155,
+    "fn": 223,
+    "tp": 452
+  },
+  "test": {
+    "threshold": 0.8357518315315247,
+    "balanced_accuracy": 0.6983127384714114,
+    "precision": 0.6094890510948905,
+    "recall": 0.40931372549019607,
+    "f1": 0.4897360703812317,
+    "macro_f1": 0.7346327410729687,
+    "roc_auc": 0.8448758727966461,
+    "pr_auc": 0.4022506575166133,
+    "mcc": 0.4801888529740307,
+    "tn": 8326,
+    "fp": 107,
+    "fn": 241,
+    "tp": 167
+  }
+}

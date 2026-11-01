@@ -1,0 +1,52 @@
+========================================================================================
+PAPER ASSET GENERATION REPORT — VERSION 5
+========================================================================================
+
+Project root     : .
+Output directory : /mnt/data/usenix_candidate_extract/results/paper_assets_final
+Models processed : 6
+
+LOADED MODELS
+----------------------------------------------------------------------------------------
+[OK] MLP | n_seeds=5 | /mnt/data/usenix_candidate_extract/results/mlp_target/aggregate_summary.json
+[OK] Transformer | n_seeds=5 | /mnt/data/usenix_candidate_extract/results/transformer/aggregate_summary.json
+[OK] Hybrid Transformer | n_seeds=5 | /mnt/data/usenix_candidate_extract/results/hybrid_transformer/aggregate_summary.json
+[OK] GraphSAGE | n_seeds=5 | /mnt/data/usenix_candidate_extract/results/graphsage/aggregate_summary.json
+[OK] Transformer + GraphSAGE | n_seeds=5 | /mnt/data/usenix_candidate_extract/results/transformer_graphsage/aggregate_summary.json
+[OK] Late Fusion (ours) | n_seeds=5 | /mnt/data/usenix_candidate_extract/results/late_fusion/aggregate_summary.json
+
+GENERATED ASSETS
+----------------------------------------------------------------------------------------
+- Table0_ProblemMethodMapping: paper/ CSV, Markdown, LaTeX
+- Conceptual problem-overview figure: generated
+- Table1_MainResults: paper/ CSV, Markdown, LaTeX
+- Table2_FusionAblation: paper/ CSV, Markdown, LaTeX
+- TableS1_AllModels: supplementary/ CSV, Markdown, LaTeX
+- Table3_StatisticalComparison: paper/ CSV, Markdown, LaTeX
+- TableS2_StatisticalComparison: supplementary/ CSV, Markdown, LaTeX
+- Improvement_Over_Hybrid.csv
+- consolidated_results.json
+- Results_Draft.md and Results_Draft.tex
+- REPRODUCIBILITY.md
+- reproducibility_metadata.json
+- results_summary.md
+- README.md
+- PAPER_EVIDENCE_MAP.md
+- ManuscriptAssets.tex
+- SupplementaryAssets.tex
+- Alpha-ablation figures: generated
+- Model-comparison figures: generated
+
+IMPORTANT
+----------------------------------------------------------------------------------------
+This version reads only explicitly configured experiment folders.
+It never searches unknown folders and never reads seed_xx/metrics.json.
+Build timestamps are controlled by SOURCE_DATE_EPOCH for reproducible package generation.
+
+- Table captions: captions/table_captions.md
+- Figure captions: captions/figure_captions.md
+- MANIFEST.md
+- Delivery package: delivery/bitcoin_aml_publication_assets.zip
+- Package content hashes: delivery/PACKAGE_CONTENTS.sha256
+- Archive hash: delivery/ARCHIVE_SHA256.txt
+- Package verification: delivery/PACKAGE_CHECK.txt

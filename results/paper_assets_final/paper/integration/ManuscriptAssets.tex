@@ -1,0 +1,47 @@
+% ============================================================
+% Main manuscript publication assets
+% Generated automatically by generate_paper_assets.py
+% ============================================================
+
+% Required packages:
+% \usepackage{booktabs}
+% \usepackage{graphicx}
+% \usepackage{subcaption}
+% \usepackage{tabularx}
+
+% Conceptual problem overview
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.98\textwidth]{figures/fig01_problem_overview.pdf}
+\caption{Conceptual representation of the Bitcoin anti-money-laundering classification problem.}
+\label{fig:problem-overview}
+\end{figure*}
+
+% Problem-to-method correspondence
+\input{paper/latex/Table0_ProblemMethodMapping.tex}
+
+% Main result tables
+\input{paper/latex/Table1_MainResults.tex}
+
+\input{paper/latex/Table2_FusionAblation.tex}
+
+\input{paper/latex/Table3_StatisticalComparison.tex}
+
+% Main model-comparison figures
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.48\textwidth]{figures/models_f1.pdf}
+\hfill
+\includegraphics[width=0.48\textwidth]{figures/models_mcc.pdf}
+\caption{Comparison of F1 and MCC across the evaluated models.}
+\label{fig:model-comparison-f1-mcc}
+\end{figure*}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.48\textwidth]{figures/models_roc_auc.pdf}
+\hfill
+\includegraphics[width=0.48\textwidth]{figures/models_pr_auc.pdf}
+\caption{Comparison of ROC-AUC and PR-AUC across the evaluated models.}
+\label{fig:model-comparison-auc}
+\end{figure*}

@@ -1,0 +1,17 @@
+PUBLICATION ASSET CONSISTENCY CHECK
+============================================
+
+Models loaded        : 6
+Expected files       : 46
+Missing files        : 0
+Numeric values tested: 153
+Editorial files tested: 21
+Consistency errors   : 0
+
+STATUS: PASS
+
+All expected publication assets exist.
+Table1_MainResults.csv, Table2_FusionAblation.csv, and TableS1_AllModels.csv are numerically consistent with consolidated_results.json. Table3 and TableS2 are structurally consistent. Markdown and LaTeX publication assets passed the editorial checks. The reproducibility metadata and SHA-256 hashes are valid. The manuscript-ready Results section passed its structural checks.
+The LaTeX manuscript-integration files passed their structural and dependency-resolution checks.
+The package README passed its structural checks.
+The manuscript evidence map passed its structural and traceability checks.
