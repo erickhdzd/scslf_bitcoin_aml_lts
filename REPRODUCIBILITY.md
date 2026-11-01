@@ -1,8 +1,8 @@
 # Reproducibility Guide
 
-This guide describes how to reproduce the anonymous Bitcoin AML artifact from the raw Elliptic transaction dataset.
+This guide describes how to reproduce the Bitcoin AML artifact from the raw Elliptic transaction dataset.
 
-## 1. Start from a clean environment in Linux, IOS
+## 1. Start from a clean environment in Linux
 
 From the repository root:
 
@@ -21,7 +21,8 @@ python src/check_environment.py
 From the repository root:
 
 ```bash
-# previously install python 3.15 and add it's bin directory to the path
+# First, install Python 3.15 and add it to PATH.
+py -3.15 -m venv .venv
 .venv\Scripts\Activate.ps1 # for PowerShell
 .venv\Scripts\activate.bat # for cmd
 python -m pip install --upgrade pip
