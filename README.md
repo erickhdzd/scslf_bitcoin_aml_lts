@@ -1,4 +1,4 @@
-# Anonymous Bitcoin AML Artifact
+# Bitcoin AML Artifact
 
 This repository contains the code, experiment outputs, and reproducibility material for the anonymous submission on temporally realistic Bitcoin anti-money-laundering classification with MLP, Transformer, Hybrid Transformer, GraphSAGE, Transformer + GraphSAGE, and validation-selected late fusion.
 
